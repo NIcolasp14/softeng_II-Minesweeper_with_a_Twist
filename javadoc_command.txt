@@ -1,0 +1,18 @@
+// Open Intellij's terminal
+// Run: cd ./src
+// Paste and run the following:
+
+
+// for the 2 most important files (Main, Tile)
+javadoc -d javadocs -classpath "/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.base.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.controls.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.fxml.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.graphics.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.media.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.swing.jar:/Library/Java/JavaVirtualMachines/javafx-sdk
+-19/lib/javafx.web.jar" Main.java Tile.java
+
+
+// Or for all four java files
+javadoc -d javadocs -classpath "/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.base.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.controls.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.fxml.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.graphics.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.media.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.swing.jar:/Library/Java/JavaVirtualMachines/javafx-sdk
+-19/lib/javafx.web.jar" Main.java Tile.java scenarioReader.java scenarioWriter.java
+
+
+// add -private to show private fields and methods
+javadoc -d javadocs -private -classpath "/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.base.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.controls.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.fxml.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.graphics.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.media.jar:/Library/Java/JavaVirtualMachines/javafx-sdk-19/lib/javafx.swing.jar:/Library/Java/JavaVirtualMachines/javafx-sdk
+-19/lib/javafx.web.jar" Main.java Tile.java scenarioReader.java scenarioWriter.java
